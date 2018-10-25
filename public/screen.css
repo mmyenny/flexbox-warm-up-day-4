@@ -6,4 +6,63 @@ body {
   margin: 0;
   min-height: 100%;
   font: 16px / 1 sans-serif;
+  padding: 10px;
+}
+
+.Container {
+  width: 90%;
+  margin: auto;
+  border: 5px solid black;
+}
+
+header {
+  text-align: center;
+  padding: 10px;
+  border-bottom: 5px solid black;
+  background: #83caff;
+  font-size: 50px;
+}
+
+.info {
+  display: flex;
+}
+
+.MENU {
+  flex-direction: column;
+  background: #cc99cc;
+  border-right: 5px solid black;
+  flex-basis: 20%;
+}
+
+h2 {
+  text-align: center;
+}
+
+div ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.content {
+  background: #ffcccc;
+  flex-basis: 60%;
+}
+
+.AD {
+  background: #cc99cc;
+  border-left: 5px solid black;
+  flex-basis: 20%;
+  font-size: 50px;
+}
+
+.AD ul {
+  margin-top: 0.5rem;
+}
+
+footer {
+  text-align: center;
+  border-top: 5px solid black;
+  background: #83caff;
+  padding: 10px;
+  font-size: 50px;
 }
